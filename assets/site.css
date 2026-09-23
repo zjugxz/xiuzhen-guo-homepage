@@ -191,7 +191,7 @@ ul {
   padding-left: 24px;
 }
 
-li + li {
+.main-content li + li {
   margin-top: 5px;
 }
 

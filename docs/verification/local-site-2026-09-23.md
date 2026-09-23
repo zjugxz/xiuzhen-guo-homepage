@@ -44,6 +44,13 @@ All seven routes were loaded at 1440 x 900, 768 x 900, and 390 x 844.
 
 Screenshots were inspected for the desktop homepage, 768px homepage, 390px homepage with collapsed and expanded navigation, and the 390px Services page. No overlap, clipping, broken image, or incoherent wrapping was observed.
 
+## Navigation Alignment Correction
+
+- Scoped the generic adjacent-list-item spacing rule to `.main-content` so it no longer offsets navigation items after Home.
+- Desktop browser measurements show all seven navigation links at the same box top (`133.484375px`), text top (`145.484375px`), and height (`44px`).
+- Rechecked the expanded 390 x 844 mobile menu: all seven links have equal dimensions and the page has no horizontal overflow.
+- Re-ran all six automated test groups successfully and added a regression assertion for the scoped selector.
+
 ## Portrait Optimization
 
 - Extracted source: JPEG, 1280 x 1598, 1,114,893 bytes.

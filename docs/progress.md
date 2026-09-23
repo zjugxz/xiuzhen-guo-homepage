@@ -23,6 +23,7 @@ Last updated: 2026-09-23
 - Added a local preview server and six automated test groups.
 - Verified all seven routes at 1440, 768, and 390px with no overflow or browser errors.
 - Verified mobile click, Enter, Escape, and navigation behavior.
+- Corrected the desktop navigation baseline by scoping list-item spacing to the main content; all seven navigation labels now share identical rendered coordinates.
 - Added architecture, maintenance, and verification documentation.
 
 ## Not Started

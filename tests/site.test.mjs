@@ -56,6 +56,8 @@ test("the optimized supplied portrait is present and non-trivial", async () => {
 test("responsive menu and layout styles are present", async () => {
   const css = await readFile(path.join(root, "assets", "site.css"), "utf8");
   const script = await readFile(path.join(root, "assets", "site.js"), "utf8");
+  assert.match(css, /\.main-content li \+ li\s*{/);
+  assert.doesNotMatch(css, /(?:^|\n)li \+ li\s*{/);
   assert.match(css, /@media \(max-width: 767px\)/);
   assert.match(css, /width: min\(1080px/);
   assert.match(script, /aria-expanded/);
