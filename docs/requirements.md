@@ -23,6 +23,8 @@ Last updated: 2026-09-23
 - Show Google Scholar as the only personal profile link in the initial version.
 - Link `Join My Lab` to the WiNet Lab Contact page.
 - Use a zero-dependency static generator and shared source files for the initial implementation.
+- The user authorized pushing the current local `main` branch to the configured GitHub repository on 2026-09-23.
+- This repository push does not authorize enabling or configuring GitHub Pages.
 
 ## Content Boundary
 
@@ -31,4 +33,4 @@ The reference site's design and information architecture may be reproduced, but 
 ## Pending Decisions
 
 - Confirm the local website after visual review.
-- Confirm GitHub Pages deployment only after local implementation and verification.
+- Confirm GitHub Pages deployment separately before enabling it.

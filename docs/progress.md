@@ -11,6 +11,7 @@ Last updated: 2026-09-23
 - User accepted the repository initialization and remote configuration subtask.
 - User accepted the reference-site audit subtask.
 - User accepted the PPTX content inventory and the recommended content defaults.
+- User authorized pushing the current local `main` branch after the navigation alignment correction.
 
 ## Completed, Awaiting User Acceptance
 
@@ -32,10 +33,10 @@ Last updated: 2026-09-23
 
 ## Next Proposed Subtask
 
-Collect user feedback on the local preview and make any requested corrections. After explicit approval, configure GitHub Pages, push `main`, and verify the live site.
+Await separate user approval before configuring GitHub Pages and verifying the live site.
 
 ## Git And Publication Status
 
-- The local website implementation, generated pages, tests, and documentation are committed on `main`.
-- Nothing has been pushed to GitHub.
+- The website implementation, generated pages, tests, and documentation are committed on `main` and pushed to `origin/main`.
+- The local `main` branch tracks `origin/main`.
 - GitHub Pages is not enabled.
