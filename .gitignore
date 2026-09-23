@@ -1,4 +1,7 @@
 # Source material is kept local and must not be published with the website.
 /相关资料.pptx
 ~$*.pptx
-
+node_modules/
+.DS_Store
+npm-debug.log*
+/assets/xiuzhen-guo.jpg

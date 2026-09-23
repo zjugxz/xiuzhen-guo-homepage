@@ -10,31 +10,31 @@ Last updated: 2026-09-23
 - Confirmed on GitHub that the remote repository exists, is public, and is empty.
 - User accepted the repository initialization and remote configuration subtask.
 - User accepted the reference-site audit subtask.
+- User accepted the PPTX content inventory and the recommended content defaults.
 
 ## Completed, Awaiting User Acceptance
 
-- Rendered and inspected all seven slides in `相关资料.pptx`.
-- Extracted the slide text, one embedded 1280 x 1598 portrait, and all embedded hyperlinks.
-- Mapped the slides to Home, Research, Publications, Awards, Group, Services, and Fund.
-- Recorded the user's requirement that Publications and Group contain only one sentence plus a WiNet Lab link.
-- Confirmed the local WiNet Lab routes for Publications and People.
-- Identified stale hyperlinks copied from the reference site and excluded them from the planned content.
-- Recorded source wording that requires factual-preserving grammar and punctuation cleanup.
-- Added `content-inventory.md` and excluded the PPTX and PowerPoint lock files from Git.
+- Selected a zero-dependency Node.js static generator with centralized content and shared templates.
+- Implemented Home, Research, Publications, Awards, Group, Services, and Funding routes.
+- Reproduced the reference site's 1080px document surface, header, navigation, active states, content rhythm, footer, and mobile menu.
+- Added the approved tagline, Google Scholar profile, WiNet links, and factual-preserving copy cleanup.
+- Implemented one-sentence Publications and Group pages with direct WiNet destination links.
+- Extracted the supplied portrait and published an optimized 800 x 999 WebP while keeping source files ignored.
+- Added a local preview server and six automated test groups.
+- Verified all seven routes at 1440, 768, and 390px with no overflow or browser errors.
+- Verified mobile click, Enter, Escape, and navigation behavior.
+- Added architecture, maintenance, and verification documentation.
 
 ## Not Started
 
-- Site architecture and technology selection.
-- Website implementation.
-- Local cross-browser and accessibility verification.
 - GitHub Pages configuration and deployment.
 
 ## Next Proposed Subtask
 
-Resolve the few remaining content decisions, select the static-site implementation, and scaffold the seven-page website. This step requires user acceptance of the content inventory before work begins.
+Collect user feedback on the local preview and make any requested corrections. After explicit approval, configure GitHub Pages, push `main`, and verify the live site.
 
 ## Git And Publication Status
 
-- The documentation changes are local and not yet committed.
+- The local website implementation, generated pages, tests, and documentation are committed on `main`.
 - Nothing has been pushed to GitHub.
 - GitHub Pages is not enabled.

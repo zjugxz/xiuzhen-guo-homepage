@@ -203,4 +203,3 @@ Only one sentence will appear:
 - Whether to show an office address. None appears in the PPTX.
 - Whether to show additional profiles such as ORCID, ResearchGate, Web of Science, LinkedIn, or a university faculty page.
 - Whether `Join My Lab` should link to the WiNet Lab home page or a specific contact/recruitment section.
-

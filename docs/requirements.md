@@ -17,6 +17,12 @@ Last updated: 2026-09-23
 - Keep Group to one sentence linking to the WiNet Lab People page.
 - Treat editing notes and placeholder instructions inside the PPTX as source annotations, not visible website copy.
 - Keep the source PPTX and its temporary lock file out of Git.
+- Use `WIRELESS INTELLIGENCE FOR NETWORKED AND EMBODIED THINGS.` as the header tagline.
+- Use `Funding` as the final navigation label.
+- Omit the office address because the supplied material does not include one.
+- Show Google Scholar as the only personal profile link in the initial version.
+- Link `Join My Lab` to the WiNet Lab Contact page.
+- Use a zero-dependency static generator and shared source files for the initial implementation.
 
 ## Content Boundary
 
@@ -24,6 +30,5 @@ The reference site's design and information architecture may be reproduced, but 
 
 ## Pending Decisions
 
-- Confirm the remaining source gaps listed in `content-inventory.md`, including the header tagline, `Fund` versus `Funding`, optional office address, optional profile links, and the exact `Join My Lab` destination.
-- Confirm whether to use plain static HTML/CSS/JavaScript or a static-site generator.
+- Confirm the local website after visual review.
 - Confirm GitHub Pages deployment only after local implementation and verification.
