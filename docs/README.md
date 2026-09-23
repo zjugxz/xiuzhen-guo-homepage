@@ -13,4 +13,4 @@ This directory records requirements, reference-site findings, progress, and veri
 
 ## Current Status
 
-The repository has been initialized and connected to GitHub. The reference-site audit and PPTX content inventory have been accepted. The complete seven-page site has been implemented, technically verified, and pushed to the GitHub `main` branch with the user's authorization. GitHub Pages remains disabled pending separate approval.
+The repository has been initialized and connected to GitHub. The reference-site audit and PPTX content inventory have been accepted. The complete seven-page site has been implemented, technically verified, pushed to the GitHub `main` branch, and deployed through GitHub Pages with the user's authorization. The public URL is <https://zjugxz.github.io/xiuzhen-guo-homepage/>.

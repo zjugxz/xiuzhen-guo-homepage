@@ -12,6 +12,7 @@ Last updated: 2026-09-23
 - User accepted the reference-site audit subtask.
 - User accepted the PPTX content inventory and the recommended content defaults.
 - User authorized pushing the current local `main` branch after the navigation alignment correction.
+- User separately authorized GitHub Pages configuration and public deployment.
 
 ## Completed, Awaiting User Acceptance
 
@@ -26,17 +27,15 @@ Last updated: 2026-09-23
 - Verified mobile click, Enter, Escape, and navigation behavior.
 - Corrected the desktop navigation baseline by scoping list-item spacing to the main content; all seven navigation labels now share identical rendered coordinates.
 - Added architecture, maintenance, and verification documentation.
-
-## Not Started
-
-- GitHub Pages configuration and deployment.
+- Configured GitHub Pages to publish from the `main` branch root with enforced HTTPS.
+- Verified the public site, all seven routes, and the CSS, JavaScript, and portrait assets.
 
 ## Next Proposed Subtask
 
-Await separate user approval before configuring GitHub Pages and verifying the live site.
+Collect user feedback and acceptance for the deployed public site.
 
 ## Git And Publication Status
 
 - The website implementation, generated pages, tests, and documentation are committed on `main` and pushed to `origin/main`.
 - The local `main` branch tracks `origin/main`.
-- GitHub Pages is not enabled.
+- GitHub Pages is enabled at <https://zjugxz.github.io/xiuzhen-guo-homepage/>.

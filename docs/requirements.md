@@ -24,7 +24,7 @@ Last updated: 2026-09-23
 - Link `Join My Lab` to the WiNet Lab Contact page.
 - Use a zero-dependency static generator and shared source files for the initial implementation.
 - The user authorized pushing the current local `main` branch to the configured GitHub repository on 2026-09-23.
-- This repository push does not authorize enabling or configuring GitHub Pages.
+- The user separately authorized configuring GitHub Pages on 2026-09-23.
 
 ## Content Boundary
 
@@ -33,4 +33,4 @@ The reference site's design and information architecture may be reproduced, but 
 ## Pending Decisions
 
 - Confirm the local website after visual review.
-- Confirm GitHub Pages deployment separately before enabling it.
+- Review and accept the deployed public website.
